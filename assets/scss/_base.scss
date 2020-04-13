@@ -1,0 +1,39 @@
+body {
+  font-family: $font_body;
+  color: $color_body;
+  font-size: 1em;
+  background-color: $color_bg;
+}
+
+.color-1 {
+  color: $color1;
+}
+
+.color-2 {
+  color: $color2;
+}
+
+.title-h1 {
+  font-family: $font_title;
+  font-size: em(54);
+  line-height: 1em;
+  margin: 0;
+
+  @media screen and (max-width: $mobile_breakpoint) {
+    font-size: em(40);
+  }
+}
+
+p {
+  font-size: em(18);
+  line-height: em(32, 18);
+}
+
+strong {
+  font-weight: 600;
+}
+
+.small {
+  font-size: rem(15);
+  line-height: em(24, 15);
+}

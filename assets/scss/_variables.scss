@@ -1,0 +1,22 @@
+$browser_context: 16; // Default
+
+@function rem($pixels, $context: $browser_context) {
+  @return #{$pixels/$context}rem;
+}
+
+@function em($pixels, $context: $browser_context) {
+  @return #{$pixels/$context}em;
+}
+
+$tablet_breakpoint: em(1024);
+$mobile_breakpoint: em(768);
+
+$font_body: 'Roboto';
+$font_title: 'Latos';
+
+$color_body: #000;
+$color_bg: #fff;
+$color1: red;
+$color2: blue;
+
+$curve: cubic-bezier(0.19, 1, 0.22, 1);
