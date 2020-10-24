@@ -37,3 +37,97 @@ strong {
   font-size: rem(15);
   line-height: em(24, 15);
 }
+
+button {
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: 1rem;
+  color: currentColor;
+}
+
+a {
+  cursor: pointer;
+}
+
+.mt {
+  &-1 {
+    margin-top: $space_xsmall;
+  }
+  &-2 {
+    margin-top: $space_small;
+  }
+  &-3 {
+    margin-top: $space_medium;
+  }
+  &-4 {
+    margin-top: $space_large;
+  }
+  &-5 {
+    margin-top: $space_xlarge;
+  }
+}
+
+.mr {
+  &-1 {
+    margin-right: $space_xsmall;
+  }
+  &-2 {
+    margin-right: $space_small;
+  }
+  &-3 {
+    margin-right: $space_medium;
+  }
+  &-4 {
+    margin-right: $space_large;
+  }
+  &-5 {
+    margin-right: $space_xlarge;
+  }
+}
+
+.ml {
+  &-1 {
+    margin-left: $space_xsmall;
+  }
+  &-2 {
+    margin-left: $space_small;
+  }
+  &-3 {
+    margin-left: $space_medium;
+  }
+  &-4 {
+    margin-left: $space_large;
+  }
+  &-5 {
+    margin-left: $space_xlarge;
+  }
+}
+
+.mb {
+  &-1 {
+    margin-bottom: $space_xsmall;
+  }
+  &-2 {
+    margin-bottom: $space_small;
+  }
+  &-3 {
+    margin-bottom: $space_medium;
+  }
+  &-4 {
+    margin-bottom: $space_large;
+  }
+  &-5 {
+    margin-bottom: $space_xlarge;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 1s $curve;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
