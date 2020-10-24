@@ -90,7 +90,7 @@ export default {
 
   // Robots.txt config
   robots: () => {
-    if (process.env.CONTEXT !== 'development') {
+    if (process.env.CONTEXT !== 'production') {
       return {
         UserAgent: '*',
         Disallow: '/',
