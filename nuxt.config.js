@@ -4,7 +4,6 @@ const url = 'https://webapp.netlify.com';
 const cover = url + '/social-cover.png';
 
 export default {
-  mode: 'universal',
   /*
    ** Headers of the page
    */
@@ -106,9 +105,6 @@ export default {
   // Router scroll behavior
   router: {
     prefetchLinks: true,
-    scrollBehavior: () => {
-      return { x: 0, y: 0 };
-    },
   },
 
   // Style variables
