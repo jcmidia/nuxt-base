@@ -1,6 +1,6 @@
-const description = 'My amazing Nuxt.js project';
 const title = 'My Webapp';
-const url = 'https://webapp.netlify.com';
+const description = 'My amazing Nuxt.js project';
+const url = process.env.CONTEXT === 'production' ? 'https://webapp.com' : 'https://staging.webapp.com';
 const cover = url + '/social-cover.png';
 
 export default {
